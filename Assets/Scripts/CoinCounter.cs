@@ -5,20 +5,23 @@ using System.Text;
 
 public class CoinMaster : BaseClass
 {
-    public int Score
+    private int coinScore;
+
+    public int CoinScore
     {
         get
         {
-            throw new System.NotImplementedException();
+            return coinScore;
         }
 
         set
         {
+            coinScore = value;
         }
     }
 
-    public void CoinCounter()
+    public void CoinCounter(int coin)
     {
-        throw new System.NotImplementedException();
+        CoinScore += coin;
     }
 }

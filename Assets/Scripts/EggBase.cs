@@ -2,38 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 public class EggBase : BaseClass
 {
-    public int weight
+    private int weight;
+
+    public int Weight
     {
         get
         {
-            throw new System.NotImplementedException();
+            return weight;
         }
 
         set
         {
+            weight = value;
         }
     }
 
-    public int health
+    private int health;
+
+    public int Health
     {
         get
         {
-            throw new System.NotImplementedException();
+            return health;
         }
 
         set
         {
+            health = value;
         }
     }
 
-    public int color
+    private Material color;
+    
+    public Material Color
     {
         get
         {
-            throw new System.NotImplementedException();
+               throw new System.NotImplementedException();
         }
 
         set

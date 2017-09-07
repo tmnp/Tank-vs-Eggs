@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 public class Gun : BaseClass
 {
-    public int bulletDmg
+    private int bulletDmg;
+
+    public int BulletDmg
     {
         get
         {
@@ -17,7 +20,9 @@ public class Gun : BaseClass
         }
     }
 
-    public int gunLvl
+    private int gunLvl;
+
+    public int GunLvl
     {
         get
         {
@@ -29,7 +34,9 @@ public class Gun : BaseClass
         }
     }
 
-    public int gunType
+    private string gunType;
+
+    public string GunType
     {
         get
         {
@@ -40,6 +47,8 @@ public class Gun : BaseClass
         {
         }
     }
+
+    private int cost;
 
     public int Cost
     {
@@ -52,6 +61,8 @@ public class Gun : BaseClass
         {
         }
     }
+
+
 
     public virtual void Fire()
     {

@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 public class TankBase : BaseClass
 {
-    public int movmentSpeed
+    
+    private int movementSpeed;
+
+    public int MovementSpeed
     {
         get
         {
@@ -17,7 +21,9 @@ public class TankBase : BaseClass
         }
     }
 
-    public int gun
+    private int gun;
+
+    public int Gun
     {
         get
         {
@@ -29,7 +35,9 @@ public class TankBase : BaseClass
         }
     }
 
-    public int health
+    private int health;
+
+    public int Health
     {
         get
         {
@@ -41,7 +49,9 @@ public class TankBase : BaseClass
         }
     }
 
-    public int color
+    private Material color;
+
+    public Material Color
     {
         get
         {

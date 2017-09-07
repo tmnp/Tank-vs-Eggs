@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="TankBase">
-    <Position X="5.25" Y="7.5" Width="1.5" />
+    <Position X="5.5" Y="8.25" Width="1.5" />
     <InheritanceLine Type="BaseClass" FixedToPoint="true">
       <Path>
         <Point X="8.5" Y="1.191" />
-        <Point X="8.5" Y="1.75" />
-        <Point X="6.25" Y="1.75" />
-        <Point X="6.25" Y="7.5" />
+        <Point X="8.5" Y="1.566" />
+        <Point X="6.5" Y="1.566" />
+        <Point X="6.5" Y="8.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAAAAACAAAQAAACAAAAAAAAAAAg=</HashCode>
+      <HashCode>AEAACABAAAAAAAAAAAAAAAAAAAwAAACIAAAAgAAAAAg=</HashCode>
       <FileName>Assets\Scripts\TankBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gun">
-    <Position X="2" Y="2" Width="1.5" />
+    <Position X="2" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAhAAAAAEAAAAABAAAAEAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAhAAAAIUAAAAABAAAAEQAAA=</HashCode>
       <FileName>Assets\Scripts\Gun.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GunLevel1">
-    <Position X="0.5" Y="5" Width="1.5" />
+    <Position X="0.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Class1.cs</FileName>
+      <FileName>Assets\Scripts\GunLevel1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GunLevel2">
-    <Position X="2.5" Y="5" Width="1.5" />
+    <Position X="2.5" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\GunLevel2.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GunLevel3">
-    <Position X="4.5" Y="5" Width="1.5" />
+    <Position X="4.5" Y="6.5" Width="1.5" />
     <InheritanceLine Type="Gun" FixedToPoint="true">
       <Path>
-        <Point X="2.75" Y="4.261" />
-        <Point X="2.75" Y="4.625" />
-        <Point X="5.188" Y="4.625" />
-        <Point X="5.188" Y="5" />
+        <Point X="2.75" Y="5.54" />
+        <Point X="2.75" Y="6.125" />
+        <Point X="5.188" Y="6.125" />
+        <Point X="5.188" Y="6.5" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -52,17 +52,18 @@
     </TypeIdentifier>
   </Class>
   <Class Name="EggBase">
-    <Position X="8.5" Y="2" Width="1.5" />
+    <Position X="8.5" Y="2.25" Width="1.5" />
     <InheritanceLine Type="BaseClass" FixedToPoint="true">
       <Path>
         <Point X="8.5" Y="1.191" />
-        <Point X="8.5" Y="1.75" />
-        <Point X="10" Y="1.75" />
-        <Point X="10" Y="2" />
+        <Point X="8.5" Y="1.566" />
+        <Point X="10.375" Y="1.566" />
+        <Point X="10.375" Y="2.25" />
+        <Point X="10" Y="2.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAJAAAAAAAACAAAAAAACgAAABCAAAAAg=</HashCode>
+      <HashCode>AAAACAAAAAAAAJAAAAAAAACAACAAAACgAAABiAAAAAg=</HashCode>
       <FileName>Assets\Scripts\EggBase.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -88,51 +89,37 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DefenceCube">
-    <Position X="14.25" Y="2" Width="1.5" />
+    <Position X="14.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAQAACAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAACAAAAAAAABAAAAAAABAAAAAQAACAAAAAgAAAAAg=</HashCode>
       <FileName>Assets\Scripts\DefenceCube.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DefenceCubeLevel1">
-    <Position X="13.25" Y="5.25" Width="1.5" />
+    <Position X="13.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\DefenceCubeLevel1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DefenceCubeLevel2">
-    <Position X="15.25" Y="5.25" Width="1.5" />
+    <Position X="15.25" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\DefenceCubeLevel2.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Class1">
-    <Position X="3.25" Y="10.25" Width="1.5" />
+  <Class Name="TankLevel1">
+    <Position X="3.5" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Class1.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Class2">
-    <Position X="5.25" Y="10.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Class2.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Class3">
-    <Position X="7.25" Y="10.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Class3.cs</FileName>
+      <FileName>Assets\Scripts\GunLevel1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CoinMaster">
-    <Position X="11.75" Y="2.75" Width="1.5" />
+    <Position X="11.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEA=</HashCode>
       <FileName>Assets\Scripts\CoinCounter.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -141,6 +128,48 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLevel2">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TankLevel2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLevel3">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TankLevel3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankMotor">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAQAAAAAABAAgAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TankMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefenceInvisableCube">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DefenceInvisableCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test">
+    <Position X="17.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAQAAAAAAAAAIAAAAAAAAAAAAEAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotherOfEggsScript">
+    <Position X="17.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MotherOfEggsScript.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
